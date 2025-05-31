@@ -845,10 +845,160 @@
                 "instruction": "Store Items",
                 "items": [
                     "WHEAT",
-                    "SEEDS"
+                    "SEEDS",
+                    "WHEAT_GENERATOR_2"
                 ],
                 "command": "/ec 1"
             },
+            {
+                "type": "area",
+                "instruction": "/warp desert",
+                "area": "Mushroom Desert",
+                "command": "/warp desert"
+            },
+            {
+                "type":"has",
+                "instruction": "Obtain Sand &b%1%",
+                "items": {
+                    "SAND": {
+                        "count":0,
+                        "target": 1072,
+                        "done": false
+                    }
+                }
+            },
+            {
+                "type":"message",
+                "instruction": "Craft T4 Sand Minion",
+                "criteria": "You Crafted a Tier IV Sand Minion! That's a new one",
+                "command": "viewrecipe SAND_GENERATOR_1"
+            },
+            {
+                "type": "has",
+                "instruction": "Obtain Encanted Sand &b%1%",
+                "items": {
+                    "ENCHANTED_SAND": {
+                        "count": 0,
+                        "target": 56,
+                        "done":false
+                    }
+                }
+            },
+            {
+                "type":"message",
+                "instruction": "Craft T7 Sand Minion",
+                "criteria": "You Crafted a Tier VII Sand Minion! That's a new one",
+                "command": "viewrecipe SAND_GENERATOR_1"
+            },
+            {
+                "type": "store",
+                "instruction": "Store Sand Minion and Sand",
+                "items":[
+                    "SAND_GENERATOR_7",
+                    "SAND"
+                ],
+                "command":"/ec 1"
+            },
+            {
+                "type": "message",
+                "instruction": "/stonks",
+                "criteria": "Warping...",
+                "command": "/stonks"
+            },
+            {
+                "type": "has",
+                "instruction": "Get Yellow Stained Glass &b%1%",
+                "waypoint": {
+                    "beam":true,
+                    "list": [
+                        {
+                            "text": "Wool Weaver",
+                            "position":[
+                                -47,
+                                74,
+                                -30.5
+                            ],
+                            "radius":0
+                        }
+                    ],
+                    "index":0
+                },
+                "items": {
+                    "YELLOW_STAINED_GLASS": {
+                        "count":0,
+                        "target": 20,
+                        "done":false
+                    }
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Get Glowstone &b%1%",
+                "waypoint": {
+                    "beam":true,
+                    "list": [
+                        {
+                            "text": "Builder",
+                            "position":[
+                                -51,
+                                71,
+                                -27.5
+                            ],
+                            "radius":0
+                        }
+                    ],
+                    "index":0
+                },
+                "items": {
+                    "GLOWSTONE": {
+                        "count":0,
+                        "target":1,
+                        "done":false
+                    }
+                }
+            },
+            {
+                "type":"has",
+                "instruction": "Get Redstone &b%1%",
+                "waypoint": {
+                    "beam":true,
+                    "list": [
+                        {
+                            "text": "Mad Redstone Engineer",
+                            "position":[
+                                -52,
+                                65,
+                                -29
+                            ],
+                            "radius":0
+                        }
+                    ],
+                    "index":0
+                },
+                "items":{
+                    "REDSTONE": {
+                        "count":0,
+                        "target": 640,
+                        "done":false
+                    }
+                }
+            },
+            {
+                "type":"store",
+                "instruction": "Store Yellow Stained Glass, Glowstone, Redstone",
+                "items": [
+                    "YELLOW_STAINED_GLASS",
+                    "GLOWSTONE",
+                    "REDSTONE"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "subArea",
+                "instruction": "/hub",
+                "subArea": "Village",
+                "command": "/hub"
+            }
         ]
     }
 }
