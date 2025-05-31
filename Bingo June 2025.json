@@ -1,0 +1,846 @@
+{        
+    "name": "June 2025",
+    "version": 1,
+    "data": {
+        "stepIndex": 0,
+        "steps": [
+{
+    "type": "message",
+    "instruction": "/visit visit4",
+    "criteria": "Sending a visit request...",
+    "command": "/visit visit4"
+},
+{
+    "type": "cake", 
+    "instruction": "Eat cakes &b%cakes%", 
+    "eaten": [] 
+},
+{
+    "type": "message",
+    "instruction": "/warp hub",
+    "criteria": "Warping...",
+    "command": "/warp hub"
+},
+{
+    "type": "message",
+    "instruction": "Get potion effects from alixer",
+    "criteria": "[NPC] Alixer: Splish...",
+    "waypoint": {
+    "beam": true,
+    "list": [
+        {
+            "text": "Alixer",
+            "position": [
+                1.5,
+                70,
+                -88.5
+            ],
+            "radius": 4 
+        }
+    ],
+    "index": 0
+}
+},
+{
+    "type": "message",
+    "instruction": "Get Rogue Sword",
+    "criteria": "[NPC] Jamie: You might have noticed that you have a Mana bar!",
+    "waypoint": {
+        "beam": true,
+        "list": [
+            {
+                "text": "Jamie",
+                "position": [
+                    -36,
+                    68,
+                    -39
+                ],
+                "radius": 4
+            }
+        ],
+        "index": 0
+    }
+},
+{
+    "type": "subArea", 
+    "instruction": "Go to the Graveyard",
+    "subArea": "Graveyard",
+    "waypoint": {
+    "beam": true,
+    "list": [
+        {
+            "text": "Graveyard",
+            "position": [
+                -117,
+                71,
+                -71
+            ],
+            "radius": 4 
+        }
+    ],
+    "index": 0
+    }
+},
+{
+    "type": "skill",
+    "instruction": "Get Combat 1",
+    "skill": "combat", 
+    "level": 1 
+},
+{
+    "type": "area",
+    "instruction": "/warp spider",
+    "area": "Spider's Den",
+    "command": "/warp spider"
+},
+{
+    "type": "message",
+    "instruction": "Talk to Bramass Beastslayer",
+    "criteria": "[NPC] Bramass Beastslayer: Hello, adventurer! I am Bramass Beastslayer! I've slain beasts of all sorts across SkyBlock!",
+    "waypoint": {
+    "beam": true,
+    "list": [
+        {
+            "text": "Brammas Beastslayer",
+            "position": [
+                -271.5,
+                113,
+                -196.5
+            ],
+            "radius": 4 
+        }
+    ],
+    "index": 0
+}
+},
+{
+    "type": "message",
+    "instruction": "Talk to Grandma Wolf",
+    "criteria": "[NPC] Grandma Wolf: The pet does not need to be spawned for combos to work! Happy hunting!",
+    "waypoint": {
+    "beam": true,
+    "list": [
+        {
+            "text": "Grandma Wolf",
+            "position": [
+                -281.5,
+                122,
+                -190.5
+            ],
+            "radius": 4 
+        }
+    ],
+    "index": 0
+}
+},
+{
+    "type": "message",
+    "instruction": "Talk to The Archaeologist",
+    "criteria": "[NPC] Archaeologist: Hey, are you an adventurer?",
+    "waypoint": {
+    "beam": true,
+    "list": [
+        {
+            "text": "Archaeologist",
+            "position": [
+                -360.5,
+                111,
+                -290
+            ],
+            "radius": 4 
+        }
+    ],
+    "index": 0
+}
+},
+{
+    "type": "message",
+    "instruction": "Get 5 Easy Relics ",
+    "criteria": "+10,000 Coins! (2/28 Relics)",
+    "waypoint": {
+        "beam": true,
+        "list": [
+            {
+                "text": "Relic 1",
+                "position": [
+                    -342,
+                    122,
+                    -253
+                ],
+                "radius": 3
+            },
+            {
+                "text": "Entrance Relic 2",
+                "position": [
+                    -266,
+                    86,
+                    -320
+                ],
+                "radius": 3
+            },
+            {
+                "text": "Relic 2 Waypoint",
+                "position": [
+                    -235,
+                    60,
+                    -331
+                ],
+                "radius": 3
+            },
+            {
+                "text": "Relic 2",
+                "position": [
+                    -206,
+                    63,
+                    -301
+                ],
+                "radius": 4
+            }
+        ],
+        "index": 0
+    }
+},
+{
+    "type": "message",
+    "instruction": "Warp to Top",
+    "criteria": "Warping...",
+    "command": "/warp top"
+},
+{
+    "type": "message",
+    "instruction": "Get 5 Easy Relics",
+    "criteria": "+10,000 Coins! (5/28 Relics)",
+    "waypoint": {
+        "beam": true,
+        "list": [
+            {
+                "text": "Entrance Relic 3",
+                "position": [
+                    -172,
+                    133,
+                    -292
+                ],
+                "radius": 4
+            },
+            {
+                "text": "Relic 3",
+                "position": [
+                    -178,
+                    136,
+                    -297
+                ],
+                "radius": 3
+            },
+            {
+                "text": "Entrance Relic 4",
+                "position": [
+                    -144,
+                    84,
+                    -341
+                ],
+                "radius": 3
+            },
+            {
+                "text": "Relic 4",
+                "position": [
+                    -147,
+                    83,
+                    -335
+                ],
+                "radius": 3
+            },
+            {
+                "text": "Entrance Relic 5",
+                "position": [
+                    -201,
+                    88,
+                    -352
+                ],
+                "radius": 3
+            },
+            {
+                "text": "Relic 5",
+                "position": [
+                    -188,
+                    80,
+                    -346
+                ],
+                "radius": 3
+            }
+        ],
+        "index": 0
+    }
+},
+{
+    "type": "message",
+    "instruction": "/hub",
+    "criteria": "Warping...",
+    "command": "/hub"
+},
+{
+    "type": "subArea",
+    "instruction": "/hub",
+    "subArea": "Village",
+    "command": "/hub"
+},
+{
+    "type": "guiClickSlot",
+    "instruction": "Open The Personal Bank from The Skblock Menu (Skip if you didnt deposit coins into bank)", 
+    "guiName": "Skyblock Menu", 
+    "slotIndex": 33 
+},
+{
+    "type": "guiClickSlot",
+    "instruction": "Withdraw All the Money (Skip if you didnt deposit coins into bank)", 
+    "guiName": "Personal Bank Account", 
+    "slotIndex": 13 
+},
+{
+    "type": "guiClickSlot",
+    "instruction": "Withdraw All the Money (Skip if you didnt deposit coins into bank)", 
+    "guiName": "Bank Withdrawal", 
+    "slotIndex": 10
+},
+{
+    "type": "guiClickSlot",
+    "instruction": "Buy an 10% all skills exp boost from Zog",
+    "guiName": "Zog",
+    "slotIndex": 19,
+    "waypoint": {
+        "beam": true,
+        "list": [
+            {
+                "text": "Zog",
+                "position": [
+                    34.5,
+                    71,
+                    -96.5
+                ],
+                "radius": 3
+            }
+        ],
+        "index": 0
+    }
+},
+{
+    "type": "guiClickSlot",
+    "instruction": "Make Your Current pet visible",
+    "guiName": "Pets", 
+    "slotIndex": 51,
+    "command": "/pets"
+},
+{
+    "type": "has", 
+    "instruction": "Give Your Bingo pet the Pet item", 
+    "items": {
+        "PET_ITEM_ALL_SKILLS_BOOST_COMMON": {
+            "count": 1, 
+            "target": 0, 
+            "done": false
+        }  
+    }
+}, 
+{
+    "type": "guiClickSlot",
+    "instruction": "Make Your Current Pet Invisible",
+    "guiName": "Pets", 
+    "slotIndex": 51,
+    "command": "/pets"
+},
+{
+    "type": "guiClickSlot",
+    "instruction": "Make Your Current Pet Invisible",
+    "guiName": "Pets", 
+    "slotIndex": 51,
+    "command": "/pets"
+},
+            {
+                "type": "skill",
+                "instruction": "Unlock Farming 1",
+                "skill": "farming",
+                "level": 1,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Potatoes",
+                            "position": [
+                                26,
+                                70,
+                                -85
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store Items",
+                "items": [
+                    "POTATO_ITEM"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Rookie Hoe &b%1%",
+                "items": {
+                    "ROOKIE_HOE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Farm Merchant",
+                            "position": [
+                                15,
+                                70,
+                                -72.35
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Oak Wood &b%1%&r\nBuy Sticks &b%2%&r\nBuy Wooden Swords&r &b%3%\nBuy Wooden Shovel &b%4%\nBuy Wooden Hoe &b%5%",
+                "items": {
+                    "LOG": {
+                        "count": 0,
+                        "target": 10,
+                        "done": false
+                    },
+                    "STICK": {
+                        "count": 0,
+                        "target": 32,
+                        "done": false
+                    },
+                    "WOOD_SWORD": {
+                        "count": 0,
+                        "target": 8,
+                        "done": false
+                    },
+                    "WOOD_SPADE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "WOOD_HOE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Lumber Merchant",
+                            "position": [
+                                -50,
+                                70,
+                                -68
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store Oak Wood\nStore Wooden Swords\nStore Wooden Shovel",
+                "items": [
+                    "LOG",
+                    "WOOD_SWORD",
+                    "WOOD_SPADE"
+                ],
+                "command": "/ec 1"
+            },
+                        {
+                "type": "message",
+                "instruction": "Talk to Librarian",
+                "criteria": "[NPC] Librarian: Greetings! Welcome to the Library!",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Librarian",
+                            "position": [
+                                -36,
+                                69,
+                                -113
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+                        {
+                "type": "message",
+                "instruction": "Talk to Blacksmith",
+                "criteria": "[NPC] Blacksmith: I'm the town Blacksmith! I can reforge items for you, for a price.",
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Blacksmith",
+                            "position": [
+                                -29,
+                                69,
+                                -126
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Coal &b%1%&r\nBuy Gold Ingot &b%2%&r",
+                "items": {
+                    "COAL": {
+                        "count": 0,
+                        "target": 28,
+                        "done": false
+                    },
+                    "GOLD_INGOT": {
+                        "count": 0,
+                        "target": 22,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Mine Merchant",
+                            "position": [
+                                -9.5,
+                                68,
+                                -125.5
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "has",
+                "instruction": "Craft Golden Axe &b%1%&r\n&fCraft Golden Shovel &b%2%&r\n&fCraft Gold Blocks &b%3%&r\n&fCraft Coal Blocks &b%4%&r",
+                "items": {
+                    "GOLD_AXE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "GOLD_SPADE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    },
+                    "GOLD_BLOCK": {
+                        "count":0,
+                        "target": 2,
+                        "done":false
+                    },
+                    "COAL_BLOCK": {
+                        "count":0,
+                        "target":2,
+                        "done":false
+                    }
+                },
+                "command": "/craft"
+            },
+            {
+                "type": "buy",
+                "instruction": "Buy Experience Bottle &b%1%&r",
+                "items": {
+                    "EXP_BOTTLE": {
+                        "count": 0,
+                        "target": 1,
+                        "done": false
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Librarian",
+                            "position": [
+                                -36,
+                                69,
+                                -113
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "store",
+                "instruction": "Store Items",
+                "items": [
+                    "EXP_BOTTLE",
+                    "STICK"
+                ],
+                "command": "/ec 1"
+            },
+            {
+                "type": "enchant",
+                "instruction": "Enchant items",
+                "items": {
+                    "GOLD_AXE": {
+                        "enchants": [
+                            "Efficiency V"
+                        ],
+                        "done": false
+                    },
+                    "ROOKIE_HOE": {
+                        "enchants": [
+                            "Harvesting V"
+                        ],
+                        "done": false
+                    },
+                    "GOLDEN_SHOVEL": {
+                        "enchants": [
+                            "Efficiency V"
+                        ]
+                    }
+                },
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Enchanting Table",
+                            "position": [
+                                -37,
+                                69,
+                                -111
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "reforge",
+                "instruction": "Reforge items",
+                "items": {
+                    "GOLD_AXE": {
+                        "reforges": [
+                            "Double-Bit",
+                            "Lush"
+                        ],
+                        "done": false
+                    },
+                    "ROOKIE_HOE": {
+                        "reforges": [
+                            "Robust"
+                        ],
+                        "done": false
+                    }
+                }
+            },
+            {   "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Blacksmith",
+                            "position": [
+                                -29,
+                                69,
+                                -126
+                            ],
+                            "radius": 0
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "area",
+                "instruction": "/warp hub",
+                "area": "Hub",
+                "command": "/warp hub"
+            },
+            {
+                "type": "collection",
+                "instruction": "Unlock Wheat Collection 4",
+                "collection": "wheat",
+                "level": 4,
+                "waypoint": {
+                    "type": "list",
+                    "beam": true,
+                    "list": [
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                42,
+                                70,
+                                -123
+                            ],
+                            "radius": 4
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                47,
+                                71,
+                                -137
+                            ],
+                            "radius": 3
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                63,
+                                71,
+                                -134
+                            ],
+                            "radius": 8
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                73,
+                                72,
+                                -162
+                            ],
+                            "radius": 7
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                59,
+                                72,
+                                -183
+                            ],
+                            "radius": 6
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                24,
+                                71,
+                                -179
+                            ],
+                            "radius": 6
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                28,
+                                70,
+                                -141
+                            ],
+                            "radius": 10
+                        },
+                        {
+                            "text": "Wheat",
+                            "position": [
+                                41,
+                                71,
+                                -137
+                            ],
+                            "radius": 100
+                        }
+                    ],
+                    "index": 0
+                }
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Farm Suit Helmet",
+                "guiName": "Farm Suit Helmet Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe FARM_SUIT_HELMET"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Farm Suit Chestplate",
+                "guiName": "Farm Suit Chestplate Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe FARM_SUIT_CHESTPLATE"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Farm Suit Leggings",
+                "guiName": "Farm Suit Leggings Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe FARM_SUIT_LEGGINGS"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Farm Suit Boots",
+                "guiName": "Farm Suit Boots Recipe",
+                "slotIndex": 32,
+                "command": "/viewrecipe FARM_SUIT_BOOTS"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Farming Talisman",
+                "guiName": "Farming Talisman Recipe",
+                "slotIndex": 32,
+                "command": "viewrecipe FARMING_TALISMAN"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Wheat Minion T1",
+                "guiName": "Wheat Minion Recipes",
+                "slotIndex": 11,
+                "command": "viewrecipe WHEAT_GENERATOR_1"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Wheat Minion T1",
+                "guiName": "Wheat Minion I Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Wheat Minion T2",
+                "guiName": "Wheat Minion Recipes",
+                "slotIndex": 11,
+                "command": "viewrecipe WHEAT_GENERATOR_2"
+            },
+            {
+                "type": "guiClickSlot",
+                "instruction": "Craft Wheat Minion T2",
+                "guiName": "Wheat Minion II Recipe",
+                "slotIndex": 32
+            },
+            {
+                "type": "store",
+                "instruction": "Store Items",
+                "items": [
+                    "WHEAT",
+                    "SEEDS"
+                ],
+                "command": "/ec 1"
+            }
+        ]
+    }
+}
