@@ -516,14 +516,13 @@
                 "items": {
                     "COAL": {
                         "count": 0,
-                        "target": 28,
+                        "target": 640,
                         "done": false
-                    },
+                    },    
                     "GOLD_INGOT": {
                         "count": 0,
-                        "target": 22,
+                        "target": 634,
                         "done": false
-                    }
                 },
                 "waypoint": {
                     "type": "list",
@@ -558,16 +557,25 @@
                     },
                     "GOLD_BLOCK": {
                         "count":0,
-                        "target": 2,
+                        "target": 70,
                         "done":false
                     },
                     "COAL_BLOCK": {
                         "count":0,
-                        "target":2,
+                        "target":70,
                         "done":false
                     }
                 },
                 "command": "/craft"
+            },
+            {
+                "type": "store",
+                "instruction": "Store Coal Blocks\nStore Gold Blocks",
+                "items": [
+                    "COAL_BLOCK",
+                    "GOLD_BLOCK"
+                ],
+                "command": "/ec 1"
             },
             {
                 "type": "buy",
@@ -840,7 +848,7 @@
                     "SEEDS"
                 ],
                 "command": "/ec 1"
-            }
+            },
         ]
     }
 }
